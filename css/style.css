@@ -348,7 +348,7 @@ em { font-style: normal; color: var(--color-primary); }
     rgba(15,34,56,0.82) 60%,
     rgba(26,58,92,0.70) 100%
   ),
-  url('/images/hero-bg.webp') center/cover no-repeat;
+  url('/images/bg-hero.webp') center/cover no-repeat;
   color: #fff;
   padding: var(--space-24) 0 var(--space-20);
 }
