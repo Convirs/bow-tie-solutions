@@ -1,0 +1,66 @@
+{
+  "BUSINESS_NAME": "Bow Tie Solutions",
+  "PHONE_DISPLAY": "(479) 426-4740",
+  "PHONE_TEL": "4794264740",
+  "CITY": "Northwest Arkansas",
+  "STATE_ABBR": "AR",
+  "STATE_FULL": "Arkansas",
+  "ZIP": "75751",
+  "DOMAIN": "bowtiesolutionsar.com",
+  "HOURS_WEEKDAY": "Mon-Thu: 24 hours",
+  "HOURS_FRIDAY": "24 hours",
+  "GHL_FORM_URL": "https://link.apisystem.tech/widget/form/fjL1CS82ZhKGlFjycUuL",
+  "DEMO": false,
+  "DEMO_CONTACT_URL": "",
+  "DEMO_CONTACT_TEXT": "",
+  "COLOR_PRIMARY": "#f05722",
+  "COLOR_ACCENT": "#221f25",
+  "MAP_EMBED_SRC": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d822736.4209367494!2d-94.03210250000001!3d36.341054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b83e5b63d6ce1d%3A0xf04f3cccc031fe91!2sBow%20Tie%20Solutions!5e0!3m2!1sen!2sus!4v1776884658936!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "reviews": [
+    {
+      "text": "Our new favorite handy man! They’ve done a couple jobs for us and they’re so easy and great to work with. Our fence looks amazing and we’re so happy with the results!",
+      "author": "Courtney",
+      "link": "https://maps.app.goo.gl/Uex3jc38bVqNe9xp8"
+    },
+    {
+      "text": "Bow Tie Electric Solutions is WONDERFUL! FAST, FRIENDLY and Efficient. We are so impressed with Billy and David's dedicated work ethic. They completed a job another electrician could not do- did not even attempt to do. We are so pleased and will use their service, always!!",
+      "author": "Kandis",
+      "link": "https://maps.app.goo.gl/fXSUg5FvGsAjijxe6"
+    },
+    {
+      "text": "I woke up this morning to an electrical burning smell, and noticed a buzzing sound coming from my breaker box. I called Bow Tie Solutions and told them my issue. They had an electrician at my house in less than an hour.",
+      "author": "Dede",
+      "link": "https://maps.app.goo.gl/e7K61VRPGT7MbQwS6"
+    }
+  ],
+  "service_areas": [
+    {
+      "name": "Pea Ridge",
+      "state": "AR",
+      "slug": "pea-ridge",
+      "state_full": "Arkansas",
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25672.57254317146!2d-94.1453365058032!3d36.45582669790932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c9192c9bfc17eb%3A0xdfc231a53f0c92ba!2sPea%20Ridge%2C%20AR!5e0!3m2!1sen!2sus!4v1776884675601!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+    },
+    {
+      "name": "Bentonville, Arkansas",
+      "state": "AR",
+      "slug": "bentonville-arkansas",
+      "state_full": "Arkansas",
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25672.57254317146!2d-94.1453365058032!3d36.45582669790932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c9192c9bfc17eb%3A0xdfc231a53f0c92ba!2sPea%20Ridge%2C%20AR!5e0!3m2!1sen!2sus!4v1776884675601!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+    },
+    {
+      "name": "Rogers, Arkansas",
+      "state": "AR",
+      "slug": "rogers-arkansas",
+      "state_full": "Arkansas",
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25672.57254317146!2d-94.1453365058032!3d36.45582669790932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c9192c9bfc17eb%3A0xdfc231a53f0c92ba!2sPea%20Ridge%2C%20AR!5e0!3m2!1sen!2sus!4v1776884675601!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+    },
+    {
+      "name": "Bella Vista, Arkansas",
+      "state": "AR",
+      "slug": "bella-vista-arkansas",
+      "state_full": "Arkansas",
+      "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25672.57254317146!2d-94.1453365058032!3d36.45582669790932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c9192c9bfc17eb%3A0xdfc231a53f0c92ba!2sPea%20Ridge%2C%20AR!5e0!3m2!1sen!2sus!4v1776884675601!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+    }
+  ]
+}

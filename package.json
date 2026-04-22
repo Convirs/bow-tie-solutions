@@ -1,0 +1,11 @@
+{
+  "name": "electrician-website-template",
+  "version": "1.0.0",
+  "description": "Electrician website template with token-based client customization",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "setup": "node setup.js",
+    "init-electrician": "node init-electrician.js"
+  }
+}
