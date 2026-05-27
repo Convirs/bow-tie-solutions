@@ -628,6 +628,8 @@ em { font-style: normal; color: var(--color-primary); }
   border-color: var(--color-primary);
   color: #fff;
 }
+#service-area { background: #e8e8e8; }
+
 .map-embed iframe {
   width: 100%;
   height: 420px;
@@ -740,7 +742,7 @@ em { font-style: normal; color: var(--color-primary); }
   font-family: var(--font-heading);
   font-size: var(--text-lg);
   font-weight: 600;
-  color: var(--color-accent);
+  color: var(--color-primary);
   transition: var(--transition-fast);
 }
 .footer-phone:hover { color: #fff; }

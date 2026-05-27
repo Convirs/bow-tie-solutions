@@ -33,87 +33,47 @@
     <nav class="site-nav" aria-label="Main navigation">
       <a href="/index.html">Home</a><a href="/about.html">About</a>
       <div class="nav-dropdown"><button class="nav-dropdown__toggle" aria-expanded="false" aria-haspopup="true">Services <span class="nav-dropdown__arrow" aria-hidden="true">&#9662;</span></button><ul class="nav-dropdown__menu" role="menu"><li role="menuitem"><a href="/services/residential-electric.html">Residential Electric</a></li><li role="menuitem"><a href="/services/commercial-electric.html">Commercial Electric</a></li><li role="menuitem"><a href="/services/industrial-electric.html">Industrial Electric</a></li><li role="menuitem"><a href="/services/emergency-electrical.html">Emergency Electrical</a></li><li role="menuitem"><a href="/services/ev-electrical.html">EV Charging</a></li><li role="menuitem"><a href="/services/generators.html">Generators</a></li></ul></div>
-      <div class="nav-dropdown">
-        <button class="nav-dropdown__toggle" aria-expanded="false" aria-haspopup="true">
-          Service Areas <span class="nav-dropdown__arrow" aria-hidden="true">&#9662;</span>
-        </button>
-        <ul class="nav-dropdown__menu" role="menu">
-          <li role="menuitem"><a href="/areas/pea-ridge.html">Pea Ridge, AR</a></li>
-          <li role="menuitem"><a href="/areas/bentonville-arkansas.html">Bentonville, Arkansas, AR</a></li>
-          <li role="menuitem"><a href="/areas/rogers-arkansas.html">Rogers, Arkansas, AR</a></li>
-          <li role="menuitem"><a href="/areas/bella-vista-arkansas.html">Bella Vista, Arkansas, AR</a></li>
-        </ul>
-      </div>
+      <a href="/projects/index.html">Our Work</a>
     </nav>
-    <button class="hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+
+    <div class="header-cta">
+      <a href="tel:4794264740" class="header-phone" aria-label="Call Bow Tie Solutions">
+        <svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        (479) 426-4740
+      </a>
+    </div>
+
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
-<div class="mobile-nav" aria-label="Mobile navigation">
-  <a href="/index.html" class="mobile-nav__link">Home</a><a href="/about.html" class="mobile-nav__link">About</a>
-  <span class="mobile-nav__label">Services</span>
-  <a href="/services/residential-electric.html" class="mobile-nav__link mobile-nav__link--indent">Residential Electric</a><a href="/services/commercial-electric.html" class="mobile-nav__link mobile-nav__link--indent">Commercial Electric</a><a href="/services/industrial-electric.html" class="mobile-nav__link mobile-nav__link--indent">Industrial Electric</a><a href="/services/emergency-electrical.html" class="mobile-nav__link mobile-nav__link--indent">Emergency Electrical</a><a href="/services/ev-electrical.html" class="mobile-nav__link mobile-nav__link--indent">EV Charging</a><a href="/services/generators.html" class="mobile-nav__link mobile-nav__link--indent">Generators</a>
-  <span class="mobile-nav__label">Service Areas</span>
-  <a href="/areas/pea-ridge.html" class="mobile-nav__link mobile-nav__link--indent">Pea Ridge, AR</a>
-  <a href="/areas/bentonville-arkansas.html" class="mobile-nav__link mobile-nav__link--indent">Bentonville, Arkansas, AR</a>
-  <a href="/areas/rogers-arkansas.html" class="mobile-nav__link mobile-nav__link--indent">Rogers, Arkansas, AR</a>
-  <a href="/areas/bella-vista-arkansas.html" class="mobile-nav__link mobile-nav__link--indent">Bella Vista, Arkansas, AR</a>
+
+<!-- ── MOBILE NAV ───────────────────────────────────────────── -->
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+  <div class="mobile-nav__header">
+    <span class="mobile-nav__title">Bow Tie Solutions</span>
+    <button class="mobile-nav__close" aria-label="Close menu">&#x2715;</button>
+  </div>
+  <nav class="mobile-nav__links">
+    <a href="/index.html" class="mobile-nav__link">Home</a>
+    <a href="/about.html" class="mobile-nav__link">About</a>
+    <div class="mobile-nav__group">
+      <span class="mobile-nav__group-label">Services</span>
+      <a href="/services/residential-electric.html" class="mobile-nav__link">Residential Electric</a>
+      <a href="/services/commercial-electric.html" class="mobile-nav__link">Commercial Electric</a>
+      <a href="/services/industrial-electric.html" class="mobile-nav__link">Industrial Electric</a>
+      <a href="/services/emergency-electrical.html" class="mobile-nav__link">Emergency Electrical</a>
+      <a href="/services/ev-electrical.html" class="mobile-nav__link">EV Charging</a>
+      <a href="/services/generators.html" class="mobile-nav__link">Generators</a>
+    </div>
+    <a href="/projects/index.html" class="mobile-nav__link">Our Work</a>
+  </nav>
+  <div class="mobile-nav__footer">
+    <a href="tel:4794264740" class="btn btn--primary btn--block">Call (479) 426-4740</a>
+  </div>
 </div>
-
-<section class="page-hero">
-  <div class="container">
-    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/index.html">Home</a><span class="breadcrumb__sep" aria-hidden="true">/</span><a href="/index.html#services">Services</a><span class="breadcrumb__sep" aria-hidden="true">/</span><span aria-current="page">EV Charging</span></nav>
-    <h1>EV Charger Installation</h1>
-    <p class="page-hero__subtitle">Home and commercial EV charging stations — professionally installed and code-compliant throughout Arkansas.</p>
-  </div>
-</section>
-
-<section class="section section--white">
-  <div class="container">
-    <div class="service-detail">
-      <div class="service-detail__content" data-reveal>
-        <h2>EV Charger Installation in Arkansas</h2>
-        <p>As electric vehicles become more common throughout southwest Arkansas, the demand for proper home and commercial charging infrastructure is growing fast. Bow Tie Solutions installs Level 1 and Level 2 home EV chargers as well as commercial-grade EV charging stations — all professionally wired, permitted, and installed to current NEC standards.</p>
-        <p>Don't rely on a standard outlet to charge your EV. A dedicated Level 2 circuit installed by a licensed electrician is faster, safer, and ensures your charger operates reliably for years. We assess your panel, route wiring cleanly, and have you charging at home the same day.</p>
-        <ul class="check-list">
-          <li>Level 2 home EV charger installation (240V, 40-50A)</li>
-          <li>Panel assessment and capacity verification</li>
-          <li>Commercial EV charging station installation</li>
-          <li>Multi-unit and parking lot EV infrastructure</li>
-          <li>NEMA 14-50 outlet installation for portable chargers</li>
-          <li>Load management and panel upgrades when needed</li>
-          <li>All work permitted and inspected</li>
-        </ul>
-      </div>
-      <div class="service-detail__image" data-reveal data-reveal-delay="1">
-        <img src="/images/ev-electrical.webp" alt="EV charger installation in Arkansas" loading="lazy" />
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section section--dark">
-  <div class="container">
-    <div class="section__header section__header--light" data-reveal><span class="section__label">Our Process</span><h2>How EV Charger Installation Works</h2></div>
-    <div class="process-list">
-      <div class="process-step" data-reveal data-reveal-delay="1"><div class="process-step__number">1</div><h3>Free Estimate</h3><p>We assess your panel, garage layout, and charger requirements to provide a complete, upfront quote.</p></div>
-      <div class="process-step" data-reveal data-reveal-delay="2"><div class="process-step__number">2</div><h3>Permitting</h3><p>We pull all required electrical permits to ensure your installation is code-compliant and insured.</p></div>
-      <div class="process-step" data-reveal data-reveal-delay="3"><div class="process-step__number">3</div><h3>Installation</h3><p>We run a dedicated 240V circuit, mount your charger or outlet, and test everything before we leave.</p></div>
-      <div class="process-step" data-reveal data-reveal-delay="4"><div class="process-step__number">4</div><h3>You're Charging</h3><p>Your EV charger is ready to use — faster, safer, and more reliable than any extension cord solution.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="section section--white" id="faq">
-  <div class="container">
-    <div class="section__header" data-reveal><span class="section__label">Common Questions</span><h2>EV Charger Installation FAQ</h2></div>
-    <div class="faq-list" data-reveal>
-      <div class="faq-item"><button class="faq-item__question" aria-expanded="false">What is the difference between Level 1 and Level 2 EV charging?<span class="faq-item__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button><div class="faq-item__answer" aria-hidden="true"><p>Level 1 charging uses a standard 120V outlet and adds roughly 3-5 miles of range per hour — suitable for plug-in hybrids or overnight charging when you drive fewer miles. Level 2 uses a dedicated 240V circuit and adds 20-30+ miles per hour, making it the recommended choice for most EV owners who drive regularly.</p></div></div>
-      <div class="faq-item"><button class="faq-item__question" aria-expanded="false">Do I need a panel upgrade for an EV charger?<span class="faq-item__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button><div class="faq-item__answer" aria-hidden="true"><p>It depends on your current panel's available capacity. We assess your panel during the estimate visit. Many homes have enough capacity to add a 240V EV circuit without a full panel upgrade. If your panel is at capacity, we'll give you an honest recommendation on what's needed.</p></div></div>
-      <div class="faq-item"><button class="faq-item__question" aria-expanded="false">How long does EV charger installation take?<span class="faq-item__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button><div class="faq-item__answer" aria-hidden="true"><p>Most residential Level 2 EV charger installations can be completed in a single day, often in just a few hours. The timeline depends on the distance from your panel to your garage and whether any conduit work through finished walls is required.</p></div></div>
-      <div class="faq-item"><button class="faq-item__question" aria-expanded="false">Can you install EV charging at my business?<span class="faq-item__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span></button><div class="faq-item__answer" aria-hidden="true"><p>Yes. Bow Tie Solutions installs commercial EV charging stations for businesses, parking lots, and multi-tenant properties throughout southwest Arkansas. We can install multiple charging stations and handle all associated electrical infrastructure including trenching, conduit, and panel work.</p></div></div>
-    </div>
-  </div>
-</section>
+<div class="mobile-nav__overlay" id="mobile-nav-overlay"></div>
 
 <!-- ── SERVICE AREAS ─────────────────────────────────────────── -->
 <section class="section section--alt">
@@ -131,10 +91,17 @@
   </div>
 </section>
 
+
+
+
+<!-- ── CTA STRIP ─────────────────────────────────────────────── -->
 <section class="cta-strip">
   <div class="container cta-strip__inner" data-reveal>
-    <h2>Ready to Charge at Home?</h2>
-    <p>Bow Tie Solutions installs EV chargers throughout Arkansas. Free estimates on all EV charging installations.</p>
+    <h2>Ready to Get Started?</h2>
+    <p>Let's chat about how we can help you care for your home, your business, and your family's future.</p>
+    <div class="cta-strip__actions">
+      <a href="tel:4794264740" class="btn btn--outline btn--lg">Call (479) 426-4740</a>
+    </div>
   </div>
 </section>
 
@@ -143,14 +110,6 @@
     <div class="footer-grid">
       <div class="footer-brand"><p>Family-owned electrical contractor serving Northwest Arkansas and southwest Arkansas. Licensed, insured, and committed to quality work on every job.</p><a href="tel:4794264740" class="footer-phone"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>(479) 426-4740</a></div>
       <div class="footer-col"><h4>Services</h4><a href="/services/residential-electric.html">Residential Electric</a><a href="/services/commercial-electric.html">Commercial Electric</a><a href="/services/industrial-electric.html">Industrial Electric</a><a href="/services/emergency-electrical.html">Emergency Electrical</a><a href="/services/ev-electrical.html">EV Charging</a><a href="/services/generators.html">Generators</a></div>
-      <div class="footer-col">
-        <h4>Service Areas</h4>
-        <a href="/index.html">Northwest Arkansas</a>
-        <a href="/areas/pea-ridge.html">Pea Ridge, AR</a>
-        <a href="/areas/bentonville-arkansas.html">Bentonville, Arkansas, AR</a>
-        <a href="/areas/rogers-arkansas.html">Rogers, Arkansas, AR</a>
-        <a href="/areas/bella-vista-arkansas.html">Bella Vista, Arkansas, AR</a>
-      </div>
     </div>
     <div class="footer-bottom"><p>&copy; <span id="copyright-year"></span> Bow Tie Solutions. All rights reserved. | Northwest Arkansas</p></div>
   </div>

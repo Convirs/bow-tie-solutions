@@ -45,67 +45,6 @@
           <li role="menuitem"><a href="/services/generators.html">Generators</a></li>
         </ul>
       </div>
-      <div class="nav-dropdown">
-        <button class="nav-dropdown__toggle" aria-expanded="false" aria-haspopup="true">
-          Service Areas <span class="nav-dropdown__arrow" aria-hidden="true">&#9662;</span>
-        </button>
-        <ul class="nav-dropdown__menu" role="menu">
-          {{SERVICE_AREAS_NAV_HTML}}
-        </ul>
-      </div>
-    </nav>
-    <div class="header-cta">
-      <a href="tel:{{PHONE_TEL}}" class="header-phone" aria-label="Call {{BUSINESS_NAME}}"><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>{{PHONE_DISPLAY}}</a>
-    </div>
-    <button class="hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
-  </div>
-</header>
-<div class="mobile-nav" aria-label="Mobile navigation">
-  <a href="/index.html" class="mobile-nav__link">Home</a><a href="/about.html" class="mobile-nav__link">About</a>
-  <span class="mobile-nav__label">Services</span>
-  <a href="/services/residential-electric.html" class="mobile-nav__link mobile-nav__link--indent">Residential Electric</a>
-  <a href="/services/commercial-electric.html" class="mobile-nav__link mobile-nav__link--indent">Commercial Electric</a>
-  <a href="/services/industrial-electric.html" class="mobile-nav__link mobile-nav__link--indent">Industrial Electric</a>
-  <a href="/services/emergency-electrical.html" class="mobile-nav__link mobile-nav__link--indent">Emergency Electrical</a>
-  <a href="/services/ev-electrical.html" class="mobile-nav__link mobile-nav__link--indent">EV Charging</a>
-  <a href="/services/generators.html" class="mobile-nav__link mobile-nav__link--indent">Generators</a>
-  <span class="mobile-nav__label">Service Areas</span>
-  {{SERVICE_AREAS_MOBILE_HTML}}
-</div>
-
-<section class="page-hero">
-  <div class="container">
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="/index.html">Home</a><span class="breadcrumb__sep" aria-hidden="true">/</span>
-      <a href="/index.html#services">Services</a><span class="breadcrumb__sep" aria-hidden="true">/</span>
-      <span aria-current="page">Industrial Electric</span>
-    </nav>
-    <h1>Industrial Electrical Services</h1>
-    <p class="page-hero__subtitle">Heavy-duty electrical for manufacturing plants, warehouses, and industrial facilities across southwest {{STATE_FULL}}.</p>
-  </div>
-</section>
-
-<section class="section section--white">
-  <div class="container">
-    <div class="service-detail">
-      <div class="service-detail__content" data-reveal>
-        <h2>Industrial Electricians in Northern {{STATE_FULL}}</h2>
-        <p>Industrial electrical systems demand a higher level of expertise, precision, and safety. {{BUSINESS_NAME}}'s team is experienced in all aspects of industrial electrical — from three-phase power distribution and motor control centers to machine wiring, conduit systems, and facility-wide electrical upgrades. We've worked with manufacturers and industrial facilities throughout southwest {{STATE_FULL}} for over two decades.</p>
-        <p>When your production line is down, every minute is money. We understand the urgency and are equipped to troubleshoot, repair, and upgrade industrial electrical systems efficiently and safely. We also work proactively with plant managers and maintenance teams to schedule work during planned downtime.</p>
-        <ul class="check-list">
-          <li>Three-phase power installation and upgrades</li>
-          <li>Motor controls and motor control centers (MCCs)</li>
-          <li>Industrial machine and equipment wiring</li>
-          <li>Conduit installation (EMT, rigid, PVC)</li>
-          <li>Industrial panel and switchgear installation</li>
-          <li>Electrical system troubleshooting and diagnostics</li>
-          <li>Warehouse and facility lighting systems</li>
-        </ul>
-      </div>
-      <div class="service-detail__image" data-reveal data-reveal-delay="1">
-        <img src="/images/industrial-electric.webp" alt="Industrial electrical work in southwest {{STATE_FULL}}" loading="lazy" />
-      </div>
-    </div>
   </div>
 </section>
 
@@ -167,10 +106,6 @@
     <div class="footer-grid">
       <div class="footer-brand"><p>Family-owned electrical contractor serving {{CITY}} and southwest {{STATE_FULL}}. Licensed, insured, and committed to quality work on every job.</p><a href="tel:{{PHONE_TEL}}" class="footer-phone"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>{{PHONE_DISPLAY}}</a></div>
       <div class="footer-col"><h4>Services</h4><a href="/services/residential-electric.html">Residential Electric</a><a href="/services/commercial-electric.html">Commercial Electric</a><a href="/services/industrial-electric.html">Industrial Electric</a><a href="/services/emergency-electrical.html">Emergency Electrical</a><a href="/services/ev-electrical.html">EV Charging</a><a href="/services/generators.html">Generators</a></div>
-      <div class="footer-col">
-        <h4>Service Areas</h4>
-        {{SERVICE_AREAS_FOOTER_HTML}}
-      </div>
     </div>
     <div class="footer-bottom"><p>&copy; <span id="copyright-year"></span> {{BUSINESS_NAME}}. All rights reserved. | {{CITY}}, {{STATE_ABBR}}</p></div>
   </div>
