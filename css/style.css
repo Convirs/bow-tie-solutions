@@ -1006,7 +1006,7 @@ em { font-style: normal; color: var(--color-primary); }
    19. PAGE HERO (inner pages)
    ============================================================ */
 .page-hero {
-  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
+  background: #2B2B2B;
   padding: var(--space-16) 0 var(--space-12);
   color: #fff;
 }
@@ -1029,7 +1029,7 @@ em { font-style: normal; color: var(--color-primary); }
 }
 .breadcrumb a { color: rgba(255,255,255,0.75); transition: var(--transition-fast); }
 .breadcrumb a:hover { color: #fff; }
-.breadcrumb [aria-current="page"] { color: var(--color-accent); font-weight: 600; }
+.breadcrumb [aria-current="page"] { color: var(--color-primary); font-weight: 600; }
 .breadcrumb__sep { color: rgba(255,255,255,0.4); }
 
 /* ============================================================
