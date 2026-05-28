@@ -646,6 +646,7 @@ em { font-style: normal; color: var(--color-primary); }
   color: #fff;
 }
 .cta-strip__inner { text-align: center; }
+.cta-strip .section__label { color: #2b2b2b; }
 .cta-strip__inner h2 {
   color: #fff;
   font-size: var(--text-4xl);

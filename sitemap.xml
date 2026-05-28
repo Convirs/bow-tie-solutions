@@ -7,6 +7,7 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://bowtiesolutionsar.com/contact</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -18,19 +19,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bowtiesolutionsar.com/services/residential-electric</loc>
+    <loc>https://bowtiesolutionsar.com/service/residential-electrician</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bowtiesolutionsar.com/services/commercial-electric</loc>
+    <loc>https://bowtiesolutionsar.com/service/commercial-electrician</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bowtiesolutionsar.com/services/industrial-electric</loc>
+    <loc>https://bowtiesolutionsar.com/service/industrial-electrician</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -59,8 +60,28 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-  
-  
-  
-  
+  <url>
+    <loc>https://bowtiesolutionsar.com/areas/pea-ridge</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bowtiesolutionsar.com/areas/bentonville-arkansas</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bowtiesolutionsar.com/areas/rogers-arkansas</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bowtiesolutionsar.com/areas/bella-vista-arkansas</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

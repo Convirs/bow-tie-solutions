@@ -83,14 +83,17 @@ for (const [key, val] of Object.entries(config)) {
 const primary = (config.COLOR_PRIMARY || '#1a3a5c').toLowerCase();
 const accent  = (config.COLOR_ACCENT  || '#e8a020').toLowerCase();
 
+// Helper: use config override if present, otherwise derive
+const colorToken = (key, derived) => config[key] ? config[key].toLowerCase() : derived;
+
 tokens['{{COLOR_PRIMARY}}']       = primary;
-tokens['{{COLOR_PRIMARY_DARK}}']  = shiftL(primary, -9);   // hover states & dark sections
-tokens['{{COLOR_PRIMARY_LIGHT}}'] = shiftL(primary, +13);  // lighter accents
+tokens['{{COLOR_PRIMARY_DARK}}']  = colorToken('COLOR_PRIMARY_DARK',  shiftL(primary, -9));   // hover states & dark sections
+tokens['{{COLOR_PRIMARY_LIGHT}}'] = colorToken('COLOR_PRIMARY_LIGHT', shiftL(primary, +13));  // lighter accents
 tokens['{{COLOR_ACCENT}}']        = accent;
-tokens['{{COLOR_ACCENT_DARK}}']   = shiftL(accent, -9);    // CTA hover
-tokens['{{COLOR_BG_ALT}}']        = shiftL(primary, +73);  // subtle section background tint
-tokens['{{COLOR_BG_DARK}}']       = shiftL(primary, -9);   // dark section bg (= primary-dark)
-tokens['{{COLOR_BG_FOOTER}}']     = shiftL(primary, -17);  // near-black footer
+tokens['{{COLOR_ACCENT_DARK}}']   = colorToken('COLOR_ACCENT_DARK',   shiftL(accent, -9));    // CTA hover
+tokens['{{COLOR_BG_ALT}}']        = colorToken('COLOR_BG_ALT',        shiftL(primary, +73));  // subtle section background tint
+tokens['{{COLOR_BG_DARK}}']       = colorToken('COLOR_BG_DARK',       shiftL(primary, -9));   // dark section bg (= primary-dark)
+tokens['{{COLOR_BG_FOOTER}}']     = colorToken('COLOR_BG_FOOTER',     shiftL(primary, -17));  // near-black footer
 
 // ── Reviews HTML token ────────────────────────────────────────────────────────
 const reviews = Array.isArray(config.reviews) ? config.reviews : [];
