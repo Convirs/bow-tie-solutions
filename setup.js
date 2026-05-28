@@ -107,27 +107,27 @@ tokens['{{REVIEWS_CTA_LINK}}'] = reviews.length ? reviews[0].link : '#';
 
 // ── Build dynamic service-area HTML snippets ──────────────────────────────────
 tokens['{{SERVICE_AREAS_NAV_HTML}}'] = areas
-  .map(a => `<li role="menuitem"><a href="/areas/${a.slug}.html">${a.name}, ${a.state}</a></li>`)
+  .map(a => `<li role="menuitem"><a href="/sap/${a.slug}.html">${a.name}, ${a.state}</a></li>`)
   .join('\n          ');
 
 tokens['{{SERVICE_AREAS_MOBILE_HTML}}'] = areas
-  .map(a => `<a href="/areas/${a.slug}.html" class="mobile-nav__link mobile-nav__link--indent">${a.name}, ${a.state}</a>`)
+  .map(a => `<a href="/sap/${a.slug}.html" class="mobile-nav__link mobile-nav__link--indent">${a.name}, ${a.state}</a>`)
   .join('\n  ');
 
 tokens['{{SERVICE_AREAS_FOOTER_HTML}}'] = [
   `<a href="/index.html">${config.CITY}, ${config.STATE_ABBR}</a>`,
-  ...areas.map(a => `<a href="/areas/${a.slug}.html">${a.name}, ${a.state}</a>`)
+  ...areas.map(a => `<a href="/sap/${a.slug}.html">${a.name}, ${a.state}</a>`)
 ].join('\n        ');
 
 tokens['{{SERVICE_AREAS_AREA_TAG_HTML}}'] = areas
-  .map(a => `<a href="/areas/${a.slug}.html" class="area-tag">${a.name}, ${a.state}</a>`)
+  .map(a => `<a href="/sap/${a.slug}.html" class="area-tag">${a.name}, ${a.state}</a>`)
   .join('\n      ');
 
 const today = new Date().toISOString().slice(0, 10);
 tokens['{{AREA_SITEMAP_ENTRIES}}'] = areas
   .map(a => [
     '  <url>',
-    `    <loc>https://${config.DOMAIN}/areas/${a.slug}</loc>`,
+    `    <loc>https://${config.DOMAIN}/sap/${a.slug}</loc>`,
     `    <lastmod>${today}</lastmod>`,
     '    <changefreq>monthly</changefreq>',
     '    <priority>0.7</priority>',
@@ -173,7 +173,7 @@ function processDir(srcDir, outDir) {
 function processAreaPages() {
   const templatePath = path.join(TEMPLATES_DIR, 'areas', 'area-page.html');
   if (!fs.existsSync(templatePath)) {
-    console.warn('  \u26a0 _templates/areas/area-page.html not found \u2014 skipping area pages');
+    console.warn('  \u26a0 _templates/sap/area-page.html not found \u2014 skipping area pages');
     return;
   }
 
@@ -184,7 +184,7 @@ function processAreaPages() {
   for (const area of areas) {
     const otherAreas = areas.filter(a => a.slug !== area.slug);
     const alsoLinks  = otherAreas
-      .map(a => `<a href="/areas/${a.slug}.html" class="area-tag">${a.name}</a>`)
+      .map(a => `<a href="/sap/${a.slug}.html" class="area-tag">${a.name}</a>`)
       .join('\n      ');
 
     const extra = {
