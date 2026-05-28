@@ -37,19 +37,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://{{DOMAIN}}/services/emergency-electrical</loc>
+    <loc>https://{{DOMAIN}}/service/emergency-electrical</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://{{DOMAIN}}/services/ev-electrical</loc>
+    <loc>https://{{DOMAIN}}/service/ev-electrical</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://{{DOMAIN}}/services/generators</loc>
+    <loc>https://{{DOMAIN}}/service/generators</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
