@@ -149,9 +149,8 @@ em { font-style: normal; color: var(--color-primary); }
   flex-shrink: 0;
 }
 .header-logo img {
-  width: 44px;
-  height: 44px;
-  border-radius: var(--radius-md);
+  width: 120px;
+  height: 120px;
   object-fit: contain;
 }
 .header-logo__text { display: flex; flex-direction: column; line-height: 1.2; }
@@ -1210,3 +1209,4 @@ em { font-style: normal; color: var(--color-primary); }
   .container { padding: 0 var(--space-4); }
   .stats-bar__number { font-size: var(--text-4xl); }
 }
+                                                                        
