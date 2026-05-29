@@ -108,6 +108,21 @@ document.addEventListener('DOMContentLoaded', () => {
     revealEls.forEach(el => el.classList.add('is-visible'));
   }
 
+
+  /* ── Active Nav Highlight ──────────────────────────────── */
+  const norm = p => p.replace(/\/index\.html$/, '/').replace(/\.html$/, '').replace(/\/$/, '') || '/';
+  const currentPath = norm(window.location.pathname);
+  document.querySelectorAll('.site-nav > a').forEach(link => {
+    if (norm(link.getAttribute('href') || '') === currentPath) {
+      link.classList.add('nav--active');
+    }
+  });
+  document.querySelectorAll('.nav-dropdown').forEach(dropdown => {
+    const toggle = dropdown.querySelector('.nav-dropdown__toggle');
+    const anyActive = Array.from(dropdown.querySelectorAll('.nav-dropdown__menu a'))
+      .some(a => norm(a.getAttribute('href') || '') === currentPath);
+    if (anyActive && toggle) toggle.classList.add('nav--active');
+  });
   /* ── Footer Copyright Year ─────────────────────────────── */
   const yearEl = document.getElementById('copyright-year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
