@@ -140,6 +140,38 @@
     </button>
   </div>
 </header>
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+  <div class="mobile-nav__header">
+    <span class="mobile-nav__title">Bow Tie Solutions</span>
+    <button class="mobile-nav__close" aria-label="Close menu">&#x2715;</button>
+  </div>
+  <nav class="mobile-nav__links">
+    <a href="/index.html" class="mobile-nav__link">Home</a>
+    <a href="/about.html" class="mobile-nav__link">About</a>
+    <a href="/contact-us.html" class="mobile-nav__link">Contact</a>
+    <div class="mobile-nav__group">
+      <span class="mobile-nav__group-label">Services</span>
+      <a href="/service/residential-electrician.html" class="mobile-nav__link">Residential Electric</a>
+      <a href="/service/commercial-electrician.html" class="mobile-nav__link">Commercial Electric</a>
+      <a href="/service/industrial-electrician.html" class="mobile-nav__link">Industrial Electric</a>
+      <a href="/service/emergency-electrical.html" class="mobile-nav__link">Emergency Electrical</a>
+      <a href="/service/ev-electrical.html" class="mobile-nav__link">EV Charging</a>
+      <a href="/service/generators.html" class="mobile-nav__link">Generators</a>
+    </div>
+    <div class="mobile-nav__group">
+      <span class="mobile-nav__group-label">Service Areas</span>
+      <a href="/sap/bella-vista-arkansas.html" class="mobile-nav__link">Bella Vista, AR</a>
+      <a href="/sap/bentonville-arkansas.html" class="mobile-nav__link">Bentonville, AR</a>
+      <a href="/sap/lowell-arkansas.html" class="mobile-nav__link">Lowell, AR</a>
+      <a href="/sap/pea-ridge-arkansas.html" class="mobile-nav__link">Pea Ridge, AR</a>
+      <a href="/sap/rogers-arkansas.html" class="mobile-nav__link">Rogers, AR</a>
+    </div>
+  </nav>
+  <div class="mobile-nav__footer">
+    <a href="tel:4794264740" class="btn btn--primary btn--block">Call (479) 426-4740</a>
+  </div>
+</div>
+<div class="mobile-nav__overlay" id="mobile-nav-overlay"></div>
 
 <!-- PAGE HERO -->
 <section class="page-hero">
@@ -159,13 +191,20 @@
 <!-- INTRO SECTION -->
 <section class="section section--white">
   <div class="container">
-    <div class="section__header" data-reveal>
-      <span class="section__label">Serving Rogers, Arkansas</span>
-      <h2>Licensed Electricians in Rogers, Arkansas</h2>
-      <p>Bow Tie Solutions proudly serves Rogers, Arkansas — bringing the same commitment to honest pricing, quality work, and licensed electrical service that we deliver throughout Arkansas. When you call us, you're calling a local team that knows the area. Every job comes with a free estimate and our commitment to the best price for the best work.</p>
-    </div>
-    <div class="btn-group" style="display:flex;gap:1rem;justify-content:center;" data-reveal>
-      <a href="tel:4794264740" class="btn btn--primary btn--lg">Call (479) 426-4740</a>
+    <div class="intro-split" data-reveal>
+      <div class="intro-split__text">
+        <div class="section__header" style="text-align:left;">
+          <span class="section__label">Serving Rogers, Arkansas</span>
+          <h2>Licensed Electricians in Rogers, Arkansas</h2>
+          <p>Bow Tie Solutions proudly serves Rogers, Arkansas — bringing the same commitment to honest pricing, quality work, and licensed electrical service that we deliver throughout Arkansas. When you call us, you're calling a local team that knows the area. Every job comes with a free estimate and our commitment to the best price for the best work.</p>
+        </div>
+        <div class="btn-group" style="display:flex;gap:1rem;" data-reveal>
+          <a href="tel:4794264740" class="btn btn--primary btn--lg">Call (479) 426-4740</a>
+        </div>
+      </div>
+      <figure class="intro-split__image">
+        <img src="/images/rogers.jpg" alt="Rogers, Arkansas" loading="lazy">
+      </figure>
     </div>
   </div>
 </section>
@@ -206,8 +245,8 @@
         <h3>Honesty &amp; Quality First</h3>
         <p>Built on core values of honesty, quality, and self-sufficiency — your safety, satisfaction, and peace of mind are our top priority on every project we take on.</p>
       </div>
-    </div>
-  </div>
+      </div>
+      </div>
 </section>
 
 <!-- SERVICES GRID -->
